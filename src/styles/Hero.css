@@ -1,0 +1,49 @@
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+    padding: 40px 32px;
+    margin-bottom: 32px;
+}
+
+.hero-text h1 {
+    font-size: 2.2rem;
+    margin: 0 0 16px 0;
+    font-weight: 700;
+}
+
+.hero-text p {
+    color: #444;
+    margin-bottom: 24px;
+}
+
+.download-btn {
+    background: #e75480;
+    color: #fff;
+    padding: 12px 28px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: background 0.2s;
+}
+
+.download-btn:hover {
+    background: #c13c6a;
+}
+
+.hero-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-pic-placeholder {
+    width: 110px;
+    height: 110px;
+    background: #e5e5e5;
+    border-radius: 50%;
+}

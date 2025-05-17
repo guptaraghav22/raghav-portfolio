@@ -1,0 +1,77 @@
+.company-projects-section {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+    padding: 28px 32px;
+    margin-bottom: 32px;
+}
+
+.projects-list {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.project-card {
+    background: #f5faff;
+    border-radius: 8px;
+    padding: 18px 20px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.03);
+}
+
+.project-card h3 {
+    margin: 0 0 8px 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.featured-works-section {
+    background: #f8fafc;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.03);
+    padding: 28px 32px;
+    margin-bottom: 32px;
+}
+
+.works-list {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.work-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.03);
+    padding: 16px 18px;
+}
+
+.work-thumb {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    background: #e5e5e5;
+}
+
+.work-thumb-crypto {
+    background: #b2e0f7;
+}
+
+.work-thumb-zomato {
+    background: #ffe0e6;
+}
+
+.work-card h3 {
+    margin: 0 0 6px 0;
+    font-size: 1.05rem;
+    font-weight: 600;
+}
+
+.work-meta {
+    color: #888;
+    font-size: 0.95rem;
+    margin-bottom: 8px;
+}
